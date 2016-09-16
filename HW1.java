@@ -1,6 +1,12 @@
 import java.net.URL;
 import com.vmware.vim25.*;
 import com.vmware.vim25.mo.*;
+
+/*
+* A simple Jave command line program calling the VMware ESXi API to 
+* print out host name, datastore, network, and power on or power off the VMs, etc.. 
+*/
+
 public class HW1
 {
     public static void main(String[] args) throws Exception
